@@ -39,8 +39,7 @@ This analyis is performed in  Jupyter Lab. Please review the NIH RADx Data Hub [
 
 9. Log out of Jupyter Lab `File->Log Out`
 10. Relaunch Jupyter Lab
-11. Select the kernel `radx-analyzer`
-12. Run the notebooks in numerical order (notebooks are numbered)
+12. Run the notebooks in numerical order (notebooks are numbered). Select the `radx-analyzer` kernel to run the notebooks.
 
 
 > **Note:** To avoid a timeout of your Jupyter Lab session after about 10 minutes of inactivity, run the `keep_alive` notebook until your work is complete. It will keep the session alive for 8 hours.

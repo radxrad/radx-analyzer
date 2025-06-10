@@ -28,10 +28,13 @@ This analyis is performed in  Jupyter Lab. Please review the NIH RADx Data Hub [
 7. Open a terminal window in Jupyter Lab
 * Select `File->New->Terminal`
 * Create a Conda environment
+  
 ```conda env create -f environment.yml```
 * Add the conda environment to the Jupyter kernel
+  
 ```python -m ipykernel install –-user --name radx-analyzer```
 * Verify installation of the kernel
+  
 ```jupyter kernelspec list```
 
 8. Log out of Jupyter Lab `File->Log Out`

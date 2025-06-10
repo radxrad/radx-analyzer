@@ -27,8 +27,8 @@ This analyis is performed in  Jupyter Lab. Please review the NIH RADx Data Hub [
 * Git URL: `https://github.com/radxrad/radx-analyzer.git`
 7. Open a terminal window in Jupyter Lab
 * Select `File->New->Terminal`
-* Create a Conda environment
-  
+8. Create a Conda environment
+
 ```conda env create -f environment.yml```
 * Add the conda environment to the Jupyter kernel
   
@@ -37,10 +37,10 @@ This analyis is performed in  Jupyter Lab. Please review the NIH RADx Data Hub [
   
 ```jupyter kernelspec list```
 
-8. Log out of Jupyter Lab `File->Log Out`
-9. Relaunch Jupyter Lab
-10. Select the kernel `radx-analyzer`
-11. Run the notebooks in numerical order (notebooks are numbered)
+9. Log out of Jupyter Lab `File->Log Out`
+10. Relaunch Jupyter Lab
+11. Select the kernel `radx-analyzer`
+12. Run the notebooks in numerical order (notebooks are numbered)
 
 
 > **Note:** To avoid a timeout of your Jupyter Lab session after about 10 minutes of inactivity, run the `keep_alive` notebook until your work is complete. It will keep the session alive for 8 hours.
